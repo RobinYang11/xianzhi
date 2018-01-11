@@ -1,21 +1,21 @@
 # xianzhi
 
-> xianzhi_fronted_server
+> 鲜致前端架构
 
-## Build Setup
+## 构建步骤
 
 ``` bash
-# install dependencies
+# 安装依赖
 $ npm install # Or yarn install*[see note below]
 
-# serve with hot reload at localhost:3000
+# 本地开发测试环境 localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# 打包生产部署文件
 $ npm run build
 $ npm start
 
-# generate static project
+# 生产静态项目
 $ npm run generate
 ```
 
