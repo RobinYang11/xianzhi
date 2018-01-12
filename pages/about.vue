@@ -5,7 +5,7 @@
       鲜致测试页面
     </h1>
     <h2 class="info" v-if="name === 'client'">
-      请刷新页面
+      {{name}}
     </h2>
     <nuxt-link class="button" to="/">
       返回首页
@@ -13,18 +13,20 @@
   </section>
 </template>
 <script>
-export default {
-  asyncData ({ req }) {
-    return {
-      name: req ? 'server' : 'client'
-    }
-  },
-  head () {
-    return {
-      title: `About Page (${this.name}-side)`
+  import axios from 'axios'
+  export default {
+    asyncData ({ req }) {
+     
+      return {
+        name: req ? 'server' : 'client'
+      }
+    },
+    head () {
+      return {
+        title: `About Page (${this.name}-side)`
+      }
     }
   }
-}
 </script>
 
 <style scoped>
