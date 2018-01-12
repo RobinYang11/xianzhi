@@ -98,7 +98,7 @@ module.exports = {
   //通用css样式
   '~assets/css/main.css',
   //elementui通用样式
-  'element-ui/lib/theme-chalk/index.css'],
+  'element-ui/lib/theme-chalk/index.css', 'element-ui/lib/theme-chalk/display.css'],
 
   /*
   ** 自定义进度条样式
