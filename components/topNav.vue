@@ -177,7 +177,7 @@
                     float: left;
                     line-height: 30px;
                     margin-right: 10px;
-                    font-size: 14px;
+                    font-size: 12px;
                     color: #444;
                     .city-ps{
                         float: left;
@@ -190,6 +190,9 @@
                     .city-tt{
                         float: left;
                         color: #008842;
+                            .el-dropdown{
+                                font-size:12px;
+                            }
                             .sphover{
                                 color: #008842;
                                 padding: 0.2em;
@@ -221,12 +224,12 @@
                     line-height: 30px;
                     padding: 0 10px;
                     text-align: center;
-                    font-size: 14px;
+                    font-size: 12px;
                     a{
                         color: #444;
                         text-decoration: none;
                         outline: none;
-                        font-size: 14px;
+                        font-size: 12px;
 
                     }
                     .myjy{
@@ -249,7 +252,7 @@
                             color: #008842;
                             .el-dropdown-link{
                                 color: #008842;
-                                font-size: 14px;
+                                font-size: 12px;
                             }     
                         }
                     }
