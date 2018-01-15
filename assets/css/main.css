@@ -1,10 +1,42 @@
 html, body
 {
-  background-color: #fff;
-  color: #2e2f30;
-  letter-spacing: 0.5px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  height: 100vh;
-  margin: 0;
+background-color: #fff;
+color: #2e2f30;
+letter-spacing: 0.5px;
+font-family: "Source Sans Pro", Arial, sans-serif;
+height: 100vh;
+margin: 0;
 }
 
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+@media (min-width: 768px) {
+.container {
+width: 750px;
+}
+}
+@media (min-width: 992px) {
+.container {
+width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.container {
+width: 1170px;
+}
+}
+ul, ol, dl, dt, dd {
+list-style-type: none;
+}
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, th, td, p {
+margin: 0;
+padding: 0;
+}
+/*浮动S*/
+.fl{ float: left;}
+.fr{ float: right;}
+/*浮动E*/
