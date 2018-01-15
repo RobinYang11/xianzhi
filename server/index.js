@@ -26,8 +26,8 @@ async function start () {
       ctx.res.on('close', resolve)
       ctx.res.on('finish', resolve)
       nuxt.render(ctx.req, ctx.res, promise => {
-
         promise.then(resolve).catch(reject)
+
       })
     })
   })
