@@ -2,12 +2,12 @@
   <div>
     <nuxt/>
     <!-- <my-footer/> -->
+    <MyFooter/>
   </div>
 </template>
 
 <script>
-import MyFooter from '../components/Footer.vue'
-
+import MyFooter from '../components/footBoot.vue'
 export default {
   components: {
     MyFooter

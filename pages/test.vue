@@ -12,9 +12,6 @@
             <capga></capga>
             <servFt></servFt>
         </el-main>
-        <el-footer>
-            <footBoot></footBoot>
-        </el-footer>
     </el-container>
     <!--pc端-->
 </template>
@@ -41,7 +38,7 @@
         }
     }
 </script>
-<<style lang="less" scoped>
+<style lang="less" scoped>
     .pd0{
         padding:0;
     }
