@@ -13,7 +13,7 @@
             <servFt></servFt>
         </el-main>
         <el-footer>
-            <footBoot></footBoot>
+            <!-- <footBoot></footBoot> -->
         </el-footer>
     </el-container>
     <!--pc端-->
@@ -41,7 +41,7 @@
         }
     }
 </script>
-<<style lang="less" scoped>
+<style lang="less" scoped>
     .pd0{
         padding:0;
     }
