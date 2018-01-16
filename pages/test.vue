@@ -12,9 +12,6 @@
             <capga></capga>
             <servFt></servFt>
         </el-main>
-        <el-footer>
-            <!-- <footBoot></footBoot> -->
-        </el-footer>
     </el-container>
     <!--pc端-->
 </template>

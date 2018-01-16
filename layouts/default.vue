@@ -8,7 +8,6 @@
 
 <script>
 import MyFooter from '../components/footBoot.vue'
-
 export default {
   components: {
     MyFooter
