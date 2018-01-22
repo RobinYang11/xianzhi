@@ -9,13 +9,28 @@
             </div>
             <div class="panel-body  navleft">
                 <el-menu class="el-menu-vertical-demo" :default-openeds="openeds">
-                    <!--个人信息S-->
-                    <el-menu-item index="1">
-                        <span slot="title">
-                            <nuxt-link to="#">个人信息</nuxt-link>
-                        </span>
-                    </el-menu-item>
-                    <!--个人信息E-->
+                    <!--个人中心S-->
+                    <el-submenu index="1">
+                        <template slot="title">
+                            <span>个人中心</span>
+                        </template>       
+                        <el-menu-item-group>
+                            <template slot="title">
+                                <nuxt-link to="robin">基本信息</nuxt-link>
+                            </template>
+                        </el-menu-item-group>
+                        <el-menu-item-group>
+                            <template slot="title">
+                                <nuxt-link to="#">收货地址</nuxt-link>
+                            </template>
+                        </el-menu-item-group>
+                        <el-menu-item-group>
+                            <template slot="title">
+                                <nuxt-link to="#">安全中心</nuxt-link>
+                            </template>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <!--个人中心E-->
                     <!--订单中心S-->
                     <el-submenu index="2">
                         <template slot="title">
