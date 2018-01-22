@@ -1,6 +1,6 @@
 <template>
    <div class="topnav">
-       <div class="dlbg">
+       <div class="dlbg container">
            <div class="contanier">
                <!--左边S-->
                <p>
@@ -54,7 +54,6 @@ export default {
         border-bottom: 1px solid #e5e5e5;
         height: 32px;
         .dlbg{
-            width: 1200px;
             margin:0 auto;
             .contanier{
                 width: 100%;

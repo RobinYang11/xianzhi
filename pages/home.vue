@@ -10,7 +10,7 @@
                     <el-breadcrumb-item>活动详情</el-breadcrumb-item>
                 </el-breadcrumb>
             </el-row>
-            <el-row>
+            <el-row :gutter="20">
                 <el-col :span="4"><navLeft></navLeft></el-col>
                 <el-col :span="20"> <nuxt-child/></el-col>
             </el-row>
@@ -33,13 +33,28 @@ export default {
 </script>
 
 
-<style lang="less" scoped>
+<style lang="less">
     .home{
         .container{
             .el-row{
                 .el-breadcrumb{
                     font-size: 12px;
                     margin: 20px 0;
+                    .el-breadcrumb__item{
+                        .el-breadcrumb__inner{
+                            &:hover{
+                                color:#2ec748;
+                            }
+                            &:last-child{
+                                &:hover{ color: #606266;}
+                            }
+                        }
+                    }
+                    .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover{
+                        font-weight: 400;
+                        color: #606266;
+                        cursor: text;
+                    }
                 }
             }
         }

@@ -16,7 +16,7 @@ export default {
   name:'topList',
   data:function(){
       return{
-          logined:true,
+          logined:false,
           name:"用户名",
       }
   },
