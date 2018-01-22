@@ -48,7 +48,7 @@
        </div>
        <!--中间内容结束-->
        <!--最右边内容开始-->
-        <div class="aside">4</div>
+        <div class="aside">订单中心</div>
        <!--最右边内容结束-->
    </div>
 </template>
@@ -61,8 +61,10 @@ export default {
 
 <style lang="less" scoped>
     .right-main{
-      float: left;
-      width: 100%;
+      width: 1200px;
+      margin-left: 150px;
+      position: relative;
+      margin:0 auto;
       .user-info{
         margin-left:10px;
         width: 726px;
