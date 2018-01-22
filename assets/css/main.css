@@ -59,6 +59,8 @@ body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, t
   margin-bottom: 0;
   font-size: 16px;
   color: inherit;
+  border-bottom: 2px solid #e4e7ed;
+  padding: 0 10px 10px 15px;
 }
 .panel>.panel-body{
   padding: 15px
