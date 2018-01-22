@@ -1,8 +1,12 @@
 <template>
     <div>
        <homeNav></homeNav>
-       <navLeft class="homebody"></navLeft>
-       <nuxt-child/>
+        <div class="container">
+            <el-row>
+                <el-col :span="4"><navLeft></navLeft></el-col>
+                <el-col :span="20"> <nuxt-child/></el-col>
+            </el-row>
+        </div>
     </div>
 </template>
 
@@ -22,10 +26,5 @@ export default {
 
 
 <style lang="less" scoped>
-.homebody{
-    width: 1200px;
-    margin:20px auto;
-    position: relative;
-}
 </style>
 
