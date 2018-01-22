@@ -1,5 +1,6 @@
 <template>
-   <div class="navlist">
+   <div>
+        <div class="navlist">
          <el-col :span="24">
             <h5>全部功能</h5>
                 <el-menu class="el-menu-vertical-demo">
@@ -146,18 +147,23 @@
                 </el-menu>
             </el-col>
    </div>
+   </div>
 </template>
 
 <script>
 export default {
-  name:"navlist",
+  name:"navLeft",
+  data:function(){
+      return{
 
-   
+      }
+  },
 }
 </script>
-<style lang="less" >
+
+<style lang="less">
 .navlist{
-    width: 100%;
+    width: 140px;
     .el-col{
         width: 100%;
         display: block;
@@ -197,4 +203,3 @@ export default {
     }
 }
 </style>
-
