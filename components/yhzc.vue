@@ -1,7 +1,7 @@
 <template>
     <div class="topnav">
        <div class="dlbg container">
-           <div class="contanier">
+           <div class="contmain">
                <!--左边S-->
                <p>
                    <em>Hi&nbsp,&nbsp草原狼2013</em>
@@ -54,7 +54,7 @@ export default {
         height: 32px;
         .dlbg{
             margin:0 auto;
-            .contanier{
+            .contmain{
                 width: 100%;
                 height: 32px;
                 position: relative;
