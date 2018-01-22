@@ -112,8 +112,8 @@ export default {
     border-bottom: 1px solid #ddd;
     article{
         display: block;
-        width: 1200px;
         margin:0 auto;
+        max-width: 1200px;
         .mylogo{
             float: left;
             position: relative;
