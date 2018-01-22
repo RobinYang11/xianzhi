@@ -8,6 +8,7 @@
                         <a href="javascript:;" class="btn"></a>
                     </div>
                     <a href="javascript:;" class="screen-add">
+                       <i class="icon-ve-zhuye"></i>
                         银川 <i class="el-icon-arrow-down"></i>
                     </a>
                 </div>
@@ -27,7 +28,7 @@
         <div class="contanier">
             <div class="hidden-md-and-down xs-lg">
                 <ul class="fl">
-                    <li>欢迎光临鲜致！</li>
+                    <li>Hi&nbsp,&nbsp草原狼2013</li>
                     <li>
                         <div class="city-ps">
                             配送至：
@@ -36,7 +37,7 @@
                             <el-col :span="24">
                                 <el-dropdown>
                                     <span class="el-dropdown-link sphover">
-                                        <i class="el-icon-star-on"></i>
+                                        <i class="icon icon-ve-zhuye bigger-130"></i>
                                         银川
                                         <i class="el-icon-arrow-down el-icon--right left"></i>
                                         <i class="el-icon-arrow-down el-icon-arrow-up right"></i>
@@ -177,8 +178,8 @@
                     float: left;
                     line-height: 30px;
                     margin-right: 10px;
-                    font-size: 14px;
-                    color: #444;
+                    font-size: 12px;
+                    color: #999;
                     .city-ps{
                         float: left;
                         height: 16px;

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <topList/>
     <nuxt/>
     <!-- <my-footer/> -->
     <MyFooter/>
@@ -7,10 +8,11 @@
 </template>
 
 <script>
+import topList from '../components/topList.vue'
 import MyFooter from '../components/footBoot.vue'
 export default {
   components: {
-    MyFooter
+    topList,MyFooter
   }
 }
 </script>
