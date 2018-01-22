@@ -5,7 +5,7 @@
       鲜致测试页面
     </h1>
     <h2 class="info" v-if="name === 'client'">
-      {{name}}
+      挂屁
     </h2>
     <nuxt-link class="button" to="/">
       返回首页

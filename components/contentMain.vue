@@ -3,7 +3,7 @@
         <div class="content">
             <!--logo开始-->
             <div class="logo">
-                <a href="javascript"></a>
+                <a href="javascript:"></a>
             </div>
             <!--logo结束-->
             <!--搜索S-->
