@@ -1,9 +1,6 @@
 <template>
     <!--pc端-->
     <el-container>
-        <el-header class="pd0">
-            <topNav></topNav>
-        </el-header>
         <el-main>
             <contentMain></contentMain>
             <navHeade></navHeade>
@@ -16,7 +13,7 @@
     <!--pc端-->
 </template>
 <script>
-    import topNav from '../components/topNav.vue'
+    // import topNav from '../components/topNav.vue'
     import contentMain from '../components/contentMain.vue'
     import lunbo from '../components/lunbo.vue'
     import navHeade from '../components/navHeade.vue'
@@ -26,8 +23,7 @@
     import footBoot from '../components/footBoot.vue'
     export default {
         name:'test',
-        components:{
-            topNav,
+        components:{   
             contentMain,
             lunbo,
             navHeade,

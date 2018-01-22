@@ -132,6 +132,8 @@ export default {
         position: relative;
         padding-bottom: 20px;
         border-top: 0px solid #e0e0e0;
+        padding-top: 20px;
+        background-color: #fff;
         .wrap{
             width: 1200px;
             margin: 50px auto 0;

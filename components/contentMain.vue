@@ -52,124 +52,123 @@ export default {
 </script>
 
 <style lang="less" scoped>
-    .main{
-        background-color: #e0e0e0;
-        .content{
-            height: 80px;
-            padding: 15px 0 5px 0;
-            width:1200px;
-            margin:0 auto;
-            .logo{
-                float: left;
-                width: 323px;
-                margin-right: 10px;
-                a{
-                    display: block;
-                    width: 320px;
-                    height: 80px;
-                    background: url(../assets/img/logo1.png) no-repeat left top;
-                }
-            }
-            .search{
-                position: relative;
-                float: left;
-                width: 528px;
-                margin-top: 10px;
-                .search-bar{
-                    display: inline-block;
-                    .search-input{
-                            float: left;
-                            width: 425px;
-                            height: 26px;
-                            line-height: 26px;
-                            padding: 0 10px;
-                            border: 1px solid #008842;
-                            background: #e0e0e0;
-                        }
-                    .search-btn{
-                            float: left;
-                            display: block;
-                            width: 81px;
-                            height: 28px;
-                            line-height: 28px;
-                            padding: 0;
-                            border: none;
-                            cursor: pointer;
-                            color: #fff;
-                            font-size: 14px;
-                            background: #008842;
-                        }
-                }
-                .search-keywords{
-                    height: 30px;
-                    line-height: 30px;
-                    a{
-                        margin-right: 5px;
-                        display: inline-block;
-                        color: #444444;
-                        text-decoration: none;
-                        font-size: 14px;
-                        }
-                    .hot{
-                            color: #008842;
-                        }
-                }
-            }
-            .shoping{
-                z-index: 88;
-                float: right;
-                position: relative;
-                dl{
-                    
-                    dt{
-                            width: 170px;
-                            height: 28px;
-                            padding: 6px 0;
-                            line-height: 28px;
-                            text-align: center;
-                            font-size: 25px;
-                            border: 1px solid #008842;
-                            background: #fff;
-                            cursor: pointer;
-                            a{
-                                display: block;
-                                color: #008842;
-                                i{
-                                    display: inline-block;
-                                    vertical-align: middle;
-                                    width: 28px;
-                                    height: 20px;
-                                    margin-right: 10px;
-                                    font-size: 12px;
-                                    padding: 0;
-                                  }
-                            }
-                        }
-                    }
-                    dd{
-                            z-index: 88;
-                            display: none;
-                            position: absolute;
-                            top: 41px;
-                            right: 0;
-                            width: 380px;
-                            padding: 10px;
-                            background: #fff;
-                            border: 1px solid #007f4d;
-                            .nr{
-                                width: 380px;
-                                height: 120px;
-                                line-height: 120px;
-                                text-align: center;
-                            }
-                       }
-               }
-            .shoping:hover{
-               dd{
-                   display: block;
-               }
-            }
-       }
+.main {
+  background-color: #e0e0e0;
+  .content {
+    height: 80px;
+    padding: 15px 0 5px 0;
+    width: 1200px;
+    margin: 0 auto;
+    .logo {
+      float: left;
+      width: 323px;
+      margin-right: 10px;
+      a {
+        display: block;
+        width: 320px;
+        height: 80px;
+        background: url(../assets/img/logo1.png) no-repeat left top;
+      }
     }
+    .search {
+      position: relative;
+      float: left;
+      width: 528px;
+      margin-top: 10px;
+      .search-bar {
+        display: inline-block;
+        .search-input {
+          float: left;
+          width: 425px;
+          height: 26px;
+          line-height: 26px;
+          padding: 0 10px;
+          border: 1px solid #008842;
+          background: #e0e0e0;
+        }
+        .search-btn {
+          float: left;
+          display: block;
+          width: 81px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0;
+          border: none;
+          cursor: pointer;
+          color: #fff;
+          font-size: 14px;
+          background: #008842;
+        }
+      }
+      .search-keywords {
+        height: 30px;
+        line-height: 30px;
+        a {
+          margin-right: 5px;
+          display: inline-block;
+          color: #444444;
+          text-decoration: none;
+          font-size: 14px;
+        }
+        .hot {
+          color: #008842;
+        }
+      }
+    }
+    .shoping {
+      z-index: 88;
+      float: right;
+      position: relative;
+      dl {
+        dt {
+          width: 170px;
+          height: 28px;
+          padding: 6px 0;
+          line-height: 28px;
+          text-align: center;
+          font-size: 25px;
+          border: 1px solid #008842;
+          background: #fff;
+          cursor: pointer;
+          a {
+            display: block;
+            color: #008842;
+            i {
+              display: inline-block;
+              vertical-align: middle;
+              width: 28px;
+              height: 20px;
+              margin-right: 10px;
+              font-size: 12px;
+              padding: 0;
+            }
+          }
+        }
+        dd {
+          z-index: 88;
+          display: none;
+          position: absolute;
+          top: 41px;
+          right: 0;
+          width: 380px;
+          padding: 10px;
+          background: #fff;
+          border: 1px solid #007f4d;
+          .nr {
+            width: 380px;
+            height: 120px;
+            line-height: 120px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .shoping:hover {
+      dd {
+        display: block;
+      }
+    }
+  }
+}
 </style>
 

@@ -97,6 +97,9 @@ module.exports = {
   css: [
   //通用css样式
   '~assets/css/main.css',
+  //字体库图标
+  '~assets/fonts/iconfont.css',
+
   //elementui通用样式
   'element-ui/lib/theme-chalk/index.css', 'element-ui/lib/theme-chalk/display.css'],
 
