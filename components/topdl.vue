@@ -41,7 +41,6 @@ export default {
         position: relative;
         .bg-green{
            background-color: #2ec748;
-           width: 100%;
            height: 450px; 
            .wrap{
                width: 1200px;

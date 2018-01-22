@@ -1,9 +1,14 @@
 <template>
    <div>
-        <div class="navlist">
-         <el-col :span="24">
-            <h5>全部功能</h5>
-                <el-menu class="el-menu-vertical-demo">
+        
+        <div class="panel">
+            <div class="panel-header">
+                <div class="panel-title">
+                    <h5 class="title">全部功能</h5>
+                </div>
+            </div>
+            <div class="panel-body  navleft">
+                <el-menu class="el-menu-vertical-demo" :default-openeds="openeds">
                     <!--个人信息S-->
                     <el-menu-item index="1">
                         <span slot="title">
@@ -145,8 +150,8 @@
                     </el-submenu>
                     <!--账户升级E-->
                 </el-menu>
-            </el-col>
-   </div>
+            </div>
+        </div>
    </div>
 </template>
 
@@ -155,27 +160,22 @@ export default {
   name:"navLeft",
   data:function(){
       return{
-
+        openeds: ['2'],
+        uniqueOpened: false
       }
   },
 }
 </script>
 
 <style lang="less">
-.navlist{
-    width: 140px;
-    .el-col{
-        width: 100%;
-        display: block;
-        h5{
-            color: #444;
-            margin-bottom:15px;
-        }
+    .panel-body.navleft{
+        padding-top: 0px;
         .el-menu{
+            border-right: 0;
             position: relative;
             .el-submenu__title,.el-menu-item{
-                height:29px;
-                line-height: 29px;
+                height:36px;
+                line-height: 36px;
                 padding: 0;
                 padding-left:0!important;
                 font-size: 13px;
@@ -201,5 +201,11 @@ export default {
             }
         }
     }
-}
+    .panel-title{
+        h5.title{
+            font-size: 20px;
+            padding-bottom: 0;
+            color: #333;
+        }
+    }
 </style>
