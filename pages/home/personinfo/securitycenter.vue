@@ -20,7 +20,7 @@
                         <p class="security-type-tip-more ng-binding">设置登陆密码，使用鲜致更方便、安全。</p>
                     </div>
                     <span class="child security-type-linkcon">
-                        <a href="javascript:;" class="btn-stress">设置密码</a>
+                         <nuxt-link to="savepassword" class="btn-stress">设置密码</nuxt-link>
                     </span>
                 </div>
                 <!--登录密码结束-->
@@ -34,7 +34,7 @@
                         <p class="no-bind">已绑定手机号183xxxx5807</p>
                     </div>
                     <span class="child security-type-linkcon">
-                        <a href="javascript:;" class="security-type-link">更改手机</a>
+                         <nuxt-link to="changephone" class="security-type-link">更改手机</nuxt-link>
                     </span>
                 </div>
                 <!--手机验证结束-->
@@ -48,8 +48,8 @@
                         <p class="no-bind">您还没有绑定邮箱</p>
                         <p class="security-type-tip-more ng-binding">验证用户可快速找回密码，接受账户提醒邮件。</p>
                     </div>
-                    <span class="child security-type-linkcon">
-                        <a href="javascript:;" class="btn-stress">立即绑定</a>
+                    <span class="child security-type-linkcon"> 
+                        <nuxt-link to="emailbind" class="btn-stress">立即绑定</nuxt-link>
                     </span>
                 </div>
                 <!--邮箱激活结束-->

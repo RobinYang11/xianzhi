@@ -68,6 +68,7 @@ body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, t
 /*2018-1-23*/
 .el-input.is-active .el-input__inner, .el-input__inner:focus{
   border-color:#24c748!important;
+}
 a{
   text-decoration: none;
 }
