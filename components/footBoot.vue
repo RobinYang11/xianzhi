@@ -131,7 +131,7 @@ export default {
         clear: both;
         position: relative;
         padding-bottom: 20px;
-        border-top: 0px solid #e0e0e0;
+        border-top: 1px solid #e0e0e0;
         padding-top: 20px;
         background-color: #fff;
         .wrap{
