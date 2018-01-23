@@ -16,17 +16,17 @@
                         </template>       
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="robin">基本信息</nuxt-link>
+                                <nuxt-link to="basicinfo">基本信息</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">收货地址</nuxt-link>
+                                <nuxt-link to="addressmade">地址管理</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">安全中心</nuxt-link>
+                                <nuxt-link to="securitycenter">安全中心</nuxt-link>
                             </template>
                         </el-menu-item-group>
                     </el-submenu>
