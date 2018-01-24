@@ -16,7 +16,7 @@
                         </template>       
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="personinfo/basicinfo">基本信息</nuxt-link>
+                                <nuxt-link to="basicinfo">基本信息</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>

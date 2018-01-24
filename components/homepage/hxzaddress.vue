@@ -4,7 +4,7 @@
             <div class="address-box">
                 <el-row :gutter="20">
                     <el-col :span="14">
-                        草原狼2013
+                    {{name}}
                         <span>先生</span>
                     </el-col>
                     <el-col :span="8" :offset="2">
@@ -33,7 +33,7 @@
                                 姓名
                             </el-col>
                             <el-col :span="12">
-                                <el-input></el-input>
+                                <el-input v-model="name"></el-input>
                             </el-col>
                         </el-row>
                         <el-row>
@@ -149,6 +149,7 @@ export default {
         value8: '',
         isShowLogin:false,
         clickName:"添加更多",
+        name:"草原狼2013",
         isshow:false
       };
     },
@@ -324,7 +325,7 @@ export default {
         .address-main{
             .address-box{
                 .prm-btn{
-                    margin:20px 80px 20px 85px;
+                    margin:20px 85px;
                     border: 0;
                     
                 }
