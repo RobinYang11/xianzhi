@@ -5,7 +5,7 @@
       鲜致node服务端架构
     </h1>
     <el-button type="success">element-ui加载成功</el-button> 
-    <nuxt-link class="button" to="/about">
+    <nuxt-link class="button" to="/home/">
       测试页面
     </nuxt-link>
   </section>
