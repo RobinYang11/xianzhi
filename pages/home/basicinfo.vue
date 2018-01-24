@@ -114,7 +114,7 @@ export default {
                 sex:'boy',
                 birth:""
             },
-            imgpath:"/logo.png",
+            imgpath:"/jj.jpg",
             userNameVisible: false,
             ueserSexVisible:false,
             userBirthVisible:false,
@@ -156,7 +156,7 @@ export default {
                     }
                     img
                     {   
-                        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+                       box-shadow: 0 1px 6px rgba(202, 191, 191, 0.87);
                         overflow: hidden;
                         border-radius: 50%;
                         width: 50%;
