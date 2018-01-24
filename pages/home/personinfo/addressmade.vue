@@ -7,15 +7,26 @@
                 </div>
             </div>
             <div class="panel-body">
-
+                <div> <hxzaddress/></div>
+                <div class="address-main">
+                    <div class="address-box">
+                        下面内容
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import hxzaddress from '../../../components/homepage/hxzaddress.vue'
 export default {
-  
+  data:function(){
+      return{
+
+      }
+  },
+  components:{ hxzaddress}
 }
 </script>
 
@@ -25,6 +36,23 @@ export default {
             min-height:455px;
             .panel-title{
                 font-size:17px;
+            }
+            .panel-body{
+                .address-main{
+                    width: 321px;
+                    display: inline-block;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    border: 0;
+                    margin-bottom: 5px;
+                    .address-box{
+                        padding: 10px;
+                        border: 1px solid #ddd;
+                        width: 100%;
+                        height: 110px;
+                        box-sizing: border-box;
+                    }
+                }
             }
         }
     }

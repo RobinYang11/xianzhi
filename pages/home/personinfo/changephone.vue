@@ -25,8 +25,8 @@
                             原手机号码
                         </el-col>
                         <el-col :span="5">
-                            <span v-if="!number.name==''" >{{number.name}}</span>
-                            <span v-else style="color:red;">请添加号码</span>
+                            <!-- <span v-if="!number.name==''" >{{number.name}}</span> -->
+                            <span>{{number.name}}</span>
                         </el-col>
                     </el-row>
                     <el-row :gutter="20">
@@ -79,7 +79,7 @@ export default {
   data:function(){
       return{
           number:{
-              name:''
+              name:'18357875807'
           },
           msg:'获取验证码',
           centerDialogVisible: false,
