@@ -42,7 +42,7 @@
                         </el-submenu> -->
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">我的订单</nuxt-link>
+                                <nuxt-link to="OD_myorder">我的订单</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>
