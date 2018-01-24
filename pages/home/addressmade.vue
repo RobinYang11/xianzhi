@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import hxzaddress from '../../../components/homepage/hxzaddress.vue'
+import hxzaddress from '../../components/homepage/hxzaddress.vue'
 export default {
   data:function(){
       return{
