@@ -8,11 +8,11 @@
             </div>
             <div class="panel-body">
                 <div> <hxzaddress/></div>
-                <div class="address-main">
+                <!-- <div class="address-main">
                     <div class="address-box">
                         下面内容
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -41,16 +41,17 @@ export default {
                 .address-main{
                     width: 321px;
                     display: inline-block;
-                    padding: 10px;
+                    padding: 5px;
                     box-sizing: border-box;
                     border: 0;
                     margin-bottom: 5px;
                     .address-box{
-                        padding: 10px;
+                        padding: 15px;
                         border: 1px solid #ddd;
                         width: 100%;
                         height: 110px;
                         box-sizing: border-box;
+                        &:hover{ border: 1px solid #2ec748;}
                     }
                 }
             }
