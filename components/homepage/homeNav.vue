@@ -74,8 +74,12 @@
                         <a href="#">消息</a>
                         <i class="bt-arrow"></i>
                     </li>
+                    <li>
+                        <a href="/myChart">我的购物车</a>
+                    </li>
                 </ul>
                 <!--导航条数结束-->
+    
                 <!--搜索开始-->
                 <div class="search">
                     <form action="">
