@@ -156,7 +156,7 @@ export default {
   name:"navLeft",
   data:function(){
       return{
-        openeds: ['2'],
+        openeds: ['2','3','4','5','6'],
         uniqueOpened: false
       }
   },
