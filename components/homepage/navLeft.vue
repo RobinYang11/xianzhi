@@ -64,12 +64,12 @@
                         </template>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">系统通知</nuxt-link>
+                                <nuxt-link to="MS_notices">系统通知</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">消息设置</nuxt-link>
+                                <nuxt-link to="tMS_settings">消息设置</nuxt-link>
                             </template>
                         </el-menu-item-group>
                     </el-submenu>
