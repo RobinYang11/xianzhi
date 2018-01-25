@@ -4,7 +4,7 @@
         <el-row>
             <el-col :span="6">
                 <div class="list-img">
-                    <img src="../../assets/img/logo.png" alt="">
+                    <img src="../../assets/img/list6.jpg" alt="">
                     <span>鲜致物流</span>
                 </div>
             </el-col>
@@ -29,7 +29,7 @@
         <el-row>
             <el-col :span="6">
                 <div class="list-img">
-                    <img src="../../assets/img/logo.png" alt="">
+                    <img src="../../assets/img/list5.jpg" alt="">
                     <span>鲜致物流</span>
                 </div>
             </el-col>
@@ -87,7 +87,7 @@ export default {
                     position: relative;
                     overflow: hidden;
                     img{ width: 40px; height: 40px; display: inline-block; float: left;}
-                    span{ width: 110px; height: 40px; color: #555; font-weight:700; float: left; margin-left: 15px; font-size: 16px; }
+                    span{ width: 110px; height: 40px; color: rgb(6, 245, 85); font-weight:700; float: left; margin-left: 21px; font-size: 14px; }
                 }
                 .content{
                     color: #999;
