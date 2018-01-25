@@ -1,3 +1,3 @@
 <template>
-   <div >个人消息 </div>
+   <div >个人消 息 </div>
 </template>

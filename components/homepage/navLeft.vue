@@ -64,12 +64,12 @@
                         </template>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">系统通知</nuxt-link>
+                                <nuxt-link to="MS_notices">系统通知</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">消息设置</nuxt-link>
+                                <nuxt-link to="tMS_settings">消息设置</nuxt-link>
                             </template>
                         </el-menu-item-group>
                     </el-submenu>
@@ -123,32 +123,8 @@
                         </el-menu-item-group>
                     </el-submenu>
                     <!--客户服务E-->
-                    <!--安全中心S-->
-                    <el-submenu index="6">
-                        <template slot="title">
-                            <span>安全中心</span>
-                        </template>
-                        <el-menu-item-group>
-                            <template slot="title">
-                                <nuxt-link to="#">密码修改</nuxt-link>
-                            </template>
-                        </el-menu-item-group>
-                        <el-menu-item-group>
-                            <template slot="title">
-                                <nuxt-link to="#">手机修改</nuxt-link>
-                            </template>
-                        </el-menu-item-group>
-                    </el-submenu>
-                    <!--安全中心E-->
-                    <!--收货地址S-->
-                    <el-menu-item index="7">
-                        <span slot="title">
-                            <nuxt-link to="#">收货地址</nuxt-link>
-                        </span>
-                    </el-menu-item>
-                    <!--收货地址E-->
                     <!--账户升级S-->
-                    <el-submenu index="8">
+                    <el-submenu index="6">
                         <template slot="title">
                             <span>账户升级</span>
                         </template>
