@@ -13,7 +13,7 @@
    </div>
 </template>
 <script>
-import infosetting from "../../components/homepage/infosetting"
+import infosetting from "../../components/homepage/infosetting.vue"
 export default {
     components:{
         infosetting

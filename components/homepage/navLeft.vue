@@ -81,12 +81,17 @@
                         </template>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">商品</nuxt-link>
+                                <nuxt-link to="attention_goods">关注商品</nuxt-link>
                             </template>
                         </el-menu-item-group>
                         <el-menu-item-group>
                             <template slot="title">
-                                <nuxt-link to="#">浏览历史</nuxt-link>
+                                <nuxt-link to="attention_goods">关注活动</nuxt-link>
+                            </template>
+                        </el-menu-item-group>
+                        <el-menu-item-group>
+                            <template slot="title">
+                                <nuxt-link to="attention_goods">关注店铺</nuxt-link>
                             </template>
                         </el-menu-item-group>
                     </el-submenu>
