@@ -67,7 +67,7 @@ export default {
         display: block;
         width: 320px;
         height: 80px;
-        background: url(../assets/img/logo1.png) no-repeat left top;
+        background: url(../static/logo1.png) no-repeat left top;
       }
     }
     .search {

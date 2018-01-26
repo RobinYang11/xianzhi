@@ -8,14 +8,14 @@
                    <a href="javascript:;">积分<span>565</span></a>
                    <a href="javascript:;">消息<span>22</span></a>
                    <a href="javascript:;">退出</a>
-                   <a href="javascript:;">免费注册</a>
+                   <nuxt-link to="login">免费注册</nuxt-link>
                </p>
                <!--左边E-->
                <!--右边S-->
                 <el-menu class="el-menu-demo" mode="horizontal">
                     <el-menu-item index="1">
                         <i class="icon icon-ve-gerenzhongxin"></i>
-                        <a href="#" target="_blank" style="text-decoration:none;">个人中心</a>
+                        <nuxt-link to="home/" style="text-decoration:none;">个人中心</nuxt-link>
                     </el-menu-item>
                     <el-submenu index="2">
                         <template slot="title">商家中心</template>
