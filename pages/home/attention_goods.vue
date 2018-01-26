@@ -12,7 +12,7 @@
                         <el-tabs v-model="activeName" @tab-click="handleClick">
                             <el-tab-pane label="全部商品" name="first">
                                 <div v-for="i in 30">
-                                    <allShop ></allShop>
+                                    <allShop></allShop>
                                 </div>
                             </el-tab-pane>
                             <el-tab-pane label="降价(0)" name="second">
