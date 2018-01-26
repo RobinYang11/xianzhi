@@ -27,7 +27,7 @@ export default {
           imgsrc:'/jj.jpg',
           name:'优质鸡肉', 
           // currentDate: new Date(),
-          currentDate: '2018-01-02',
+          currentDate: new Date().toLocaleDateString(),
           price:'25.00'
       }
     };
